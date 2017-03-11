@@ -1,3 +1,7 @@
+<p align="center"><img width="40%" src="pytorch-logo-dark.png" /></p>
+
+-------------------------------------------------------------------------------
+
 [![Build Status](https://travis-ci.org/stepankuzmin/pytorch-notebook.svg?branch=master)](https://travis-ci.org/stepankuzmin/pytorch-notebook)
 ![Docker pulls](https://img.shields.io/docker/pulls/stepankuzmin/pytorch-notebook.svg)
 ![Docker stars](https://img.shields.io/docker/stars/stepankuzmin/pytorch-notebook.svg)
