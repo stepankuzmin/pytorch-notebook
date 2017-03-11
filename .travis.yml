@@ -1,0 +1,13 @@
+language: bash
+
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -t pytorch-notebook .
+  - docker run -d -p 127.0.0.1:8888:8888 --name pytorch-notebook pytorch-notebook
+
+script:
+  - docker ps | grep -q pytorch-notebook
